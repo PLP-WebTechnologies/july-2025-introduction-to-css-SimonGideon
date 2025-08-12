@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="main-title">Welcome to CSS Fundamentals</h1>
+        <p class="subtitle">Understanding the Box Model and Basic Styling</p>
+    </header>
+
+    <main class="main-content">
+        <section class="intro-section">
+            <h2 class="section-title">Introduction to CSS</h2>
+            <p class="intro-text">
+                CSS (Cascading Style Sheets) is a powerful language used to describe the presentation 
+                of HTML documents. It controls layout, colors, fonts, and spacing to create visually 
+                appealing web pages.
+            </p>
+            <button class="cta-button">Learn More</button>
+        </section>
+
+        <section class="box-model-section">
+            <h2 class="section-title">The CSS Box Model</h2>
+            <div class="box-demo-container">
+                <div class="box-demo margin-demo">
+                    <div class="box-content">Margin</div>
+                </div>
+                <div class="box-demo border-demo">
+                    <div class="box-content">Border</div>
+                </div>
+                <div class="box-demo padding-demo">
+                    <div class="box-content">Padding</div>
+                </div>
+                <div class="box-demo content-demo">
+                    <div class="box-content">Content</div>
+                </div>
+            </div>
+            <p class="explanation">
+                The CSS Box Model consists of content, padding, border, and margin. 
+                Each element on a web page is essentially a rectangular box with these four areas.
+            </p>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title">Key CSS Properties</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3 class="feature-title">Typography</h3>
+                    <p class="feature-description">
+                        Control font families, sizes, weights, and text styling properties 
+                        to create readable and attractive text.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title">Colors & Backgrounds</h3>
+                    <p class="feature-description">
+                        Apply colors, gradients, and background images to enhance 
+                        visual appeal and create engaging designs.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title">Layout & Spacing</h3>
+                    <p class="feature-description">
+                        Use margins, padding, and positioning to create well-structured 
+                        layouts with proper spacing between elements.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="practice-section">
+            <h2 class="section-title">Practice Area</h2>
+            <div class="practice-container">
+                <div class="practice-box small-box">Small Box</div>
+                <div class="practice-box medium-box">Medium Box</div>
+                <div class="practice-box large-box">Large Box</div>
+            </div>
+            <p class="practice-note">
+                These boxes demonstrate different sizing, spacing, and styling approaches 
+                using various CSS properties and the Box Model.
+            </p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-text">&copy; 2025 CSS Learning Journey. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Support</a>
+        </div>
+    </footer>
+</body>
+</html>
